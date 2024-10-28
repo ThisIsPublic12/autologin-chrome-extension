@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "AutoLogin",
+    "version": "1.0",
+    "description": "Automatically logs you into websites with a master password.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "passwords"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "masterPassword.html"
+    }
+  }
